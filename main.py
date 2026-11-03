@@ -10,8 +10,6 @@ try:
     exploit["RHOSTS"]='192.168.1.1'
     res=exploit.execute()
     job=client.jobs.list
-    print(res)
-    print(job)
 
 except Exception as e:
     print(e)
